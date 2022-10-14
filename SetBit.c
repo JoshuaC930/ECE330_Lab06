@@ -13,7 +13,7 @@ int setBit(int n, int position)
 int main() {
     int i;
     int position;
-    printf("Enter a number to check set bit and set bit count: ");
+    printf("Enter a number to check set bit: ");
     scanf("%d %d", &i, &position);
     
     printf("\n");
