@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Function for finding out if a specific bit is set to 1 or 0 (Task 1)
 int setBit(int n, int position)
 {
     if (n & (1 << position))
