@@ -13,11 +13,13 @@ int setBit(int n, int position)
 int main() {
     int i;
     int position;
-    printf("Enter a number to check set bit: ");
+    printf("Enter a number and position to check set bit: ");
     scanf("%d %d", &i, &position);
     
     printf("\n");
     printf("\n ---------------------------------------------------------- \n");
     //Write a program in “c” to find out a specific bit is set to 1 or 0.
     printf("Bit set for number %d at position %d: %d \n", i, position, setBit(i, position));
+
+    return 0;
 }
